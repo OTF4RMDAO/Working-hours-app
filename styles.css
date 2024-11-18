@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    color: #444;
+    margin-top: 15px;
+}
+
+/* Highlights Section */
+.highlights {
+    padding: 20px;
+}
+
+.highlight-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-item h3 {
+    color: #007bff;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

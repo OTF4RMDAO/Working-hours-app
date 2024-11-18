@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/services">Our Services</a>
+        <a href="/contact">Contact Us</a>
+    </nav>
+
+    <header>
+        <h1>Get in Touch with Movie Studio Uno</h1>
+        <p>We’d love to hear from you!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Information</h2>
+            <p>📍 **Address**: 123 Cinema Lane, Hollywood, CA</p>
+            <p>📞 **Phone**: +1 800-555-MOVIE</p>
+            <p>📧 **Email**: contact@moviestudiouno.com</p>
+        </section>
+
+        <section>
+            <h2>Send Us a Message</h2>
+            <form action="/submit-form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Movie Studio Uno | Let’s Create Magic Together</p>
+    </footer>
+</body>
+</html>
